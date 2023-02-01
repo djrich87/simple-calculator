@@ -44,3 +44,7 @@ button {
   text-shadow: 0 1px rgba(225, 225, 225,.4);
 }
 
+button:hover {
+  background-color: #eaeaea;
+}
+
