@@ -8,5 +8,10 @@ const calculator = {
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator;
 
-  
+
 }
+
+function inputDecimal(dot) {
+
+}
+
