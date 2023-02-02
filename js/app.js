@@ -83,3 +83,9 @@ function updateDisplay() {
 }
 
 updateDisplay();
+
+
+const keys = document.querySelector('.calculator-keys');
+keys.addEventListener('clicks', event => {
+
+})
