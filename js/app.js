@@ -15,3 +15,6 @@ function inputDecimal(dot) {
 
 }
 
+function handleOperator () {
+  
+}
