@@ -12,8 +12,7 @@ function inputDigit(digit) {
     calculator.displayValue = digit;
     calculator.waitingForSecondOperand = false;
   } else {
-    calculator.displayValue = displayValue === "0" ? digit :
-      displayValue + digit;
+    calculator.displayValue = displayValue === "0" ? digit : displayValue + digit;
   }
 }
 
@@ -86,7 +85,7 @@ updateDisplay();
 
 
 const keys = document.querySelector('.calculator-keys');
-keys.addEventListener('clicks', event => {
+keys.addEventListener('click', event => {
   const { target } = event;
   const { value } = target;
   if (!target.matches('button')) {
